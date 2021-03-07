@@ -112,13 +112,13 @@
 				867F059425F04E3900B79A18 /* View Models */,
 				867F058B25F04B9300B79A18 /* Service */,
 				867F058225F04A5400B79A18 /* Models */,
-				8676834825DD685C005DEF28 /* Assets.xcassets */,
 				8676833525DD6750005DEF28 /* Components */,
 				867682FF25DD6666005DEF28 /* AppDelegate.swift */,
 				8676830125DD6666005DEF28 /* SceneDelegate.swift */,
 				8676830325DD6666005DEF28 /* ContentView.swift */,
 				8676830A25DD6667005DEF28 /* LaunchScreen.storyboard */,
 				8676830D25DD6667005DEF28 /* Info.plist */,
+				8676834825DD685C005DEF28 /* Assets.xcassets */,
 				8676830725DD6667005DEF28 /* Preview Content */,
 			);
 			path = "nike-store";

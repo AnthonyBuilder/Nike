@@ -47,4 +47,8 @@ struct ShoeViewModel {
     var heading: String {
         return self.shoe.heading
     }
+    
+    var price: String {
+        return self.shoe.price
+    }
 }

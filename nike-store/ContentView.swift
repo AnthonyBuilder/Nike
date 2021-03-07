@@ -11,14 +11,12 @@ struct ContentView: View {
     
     @ObservedObject private var shoesListVM = ShoeListViewModel()
     
-    
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVStack(spacing: 0) {
-                    
                     ForEach(self.shoesListVM.shoes, id: \.id) { shoe in
-                        CardView(title: shoe.title, image: shoe.image, category: shoe.category, heading: shoe.heading, price: "100,00")
+                        CardView(title: shoe.title, image: shoe.image, category: shoe.category, heading: shoe.heading, price: shoe.price)
                     }
                 }
             }

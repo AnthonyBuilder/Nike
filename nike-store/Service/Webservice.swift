@@ -12,7 +12,7 @@ class Webservice {
     func getShoes(completion: @escaping ([Shoe]?) -> ()) {
         
         // address for api
-        guard let url = URL(string: "https://5f42fc22d145.ngrok.io/shoes") else {
+        guard let url = URL(string: "https://713503ea006d.ngrok.io/shoes") else {
             fatalError("Invalid URL")
         }
         
