@@ -14,13 +14,24 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                LazyVStack(spacing: 0) {
-                    ForEach(self.shoesListVM.shoes, id: \.id) { shoe in
-                        CardView(title: shoe.title, image: shoe.image, category: shoe.category, heading: shoe.heading, price: shoe.price)
+                LazyVStack {
+                    VStack(alignment: .leading) {
+                        Text("Tênis de Basquete")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(.secondary)
+                            .padding([.leading, .top])
+                        ScrollView(.horizontal) {
+                            HStack(spacing: 0) {
+                                ForEach(self.shoesListVM.shoes, id: \.id) { shoe in
+                                    CardView(shoe: shoe)
+                                }
+                            }
+                        }
                     }
                 }
             }
-            .navigationTitle("Nike")
+            .navigationTitle("Nike Store")
         }
     }
 }

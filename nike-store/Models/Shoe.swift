@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Shoe: Codable {
+struct Shoe: Codable, Identifiable {
     let id: Int
     let title: String
     let image: String

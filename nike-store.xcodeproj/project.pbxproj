@@ -15,11 +15,11 @@
 		8676831725DD6667005DEF28 /* nike_storeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676831625DD6667005DEF28 /* nike_storeTests.swift */; };
 		8676832225DD6667005DEF28 /* nike_storeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676832125DD6667005DEF28 /* nike_storeUITests.swift */; };
 		8676833725DD6750005DEF28 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676833625DD6750005DEF28 /* CardView.swift */; };
-		8676834125DD680A005DEF28 /* ContentProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676834025DD680A005DEF28 /* ContentProduct.swift */; };
 		8676834925DD685C005DEF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8676834825DD685C005DEF28 /* Assets.xcassets */; };
 		867F058425F04AA700B79A18 /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F058325F04AA700B79A18 /* Shoe.swift */; };
 		867F058D25F04BA600B79A18 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F058C25F04BA600B79A18 /* Webservice.swift */; };
 		867F059625F04E5000B79A18 /* ShoeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F059525F04E5000B79A18 /* ShoeViewModel.swift */; };
+		86FBC80E25F58435009B1187 /* ShoePurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBC80D25F58435009B1187 /* ShoePurchase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,11 @@
 		8676832125DD6667005DEF28 /* nike_storeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nike_storeUITests.swift; sourceTree = "<group>"; };
 		8676832325DD6667005DEF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8676833625DD6750005DEF28 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		8676834025DD680A005DEF28 /* ContentProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProduct.swift; sourceTree = "<group>"; };
 		8676834825DD685C005DEF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Nike-Store-Swift/Nike Store/Assets.xcassets"; sourceTree = "<group>"; };
 		867F058325F04AA700B79A18 /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
 		867F058C25F04BA600B79A18 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		867F059525F04E5000B79A18 /* ShoeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeViewModel.swift; sourceTree = "<group>"; };
+		86FBC80D25F58435009B1187 /* ShoePurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePurchase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				8676833625DD6750005DEF28 /* CardView.swift */,
-				8676834025DD680A005DEF28 /* ContentProduct.swift */,
+				86FBC80D25F58435009B1187 /* ShoePurchase.swift */,
 			);
 			name = Components;
 			path = "../../Nike-Store-Swift/Nike Store/Components";
@@ -317,11 +317,11 @@
 				8676830025DD6666005DEF28 /* AppDelegate.swift in Sources */,
 				867F059625F04E5000B79A18 /* ShoeViewModel.swift in Sources */,
 				8676830225DD6666005DEF28 /* SceneDelegate.swift in Sources */,
-				8676834125DD680A005DEF28 /* ContentProduct.swift in Sources */,
 				867F058425F04AA700B79A18 /* Shoe.swift in Sources */,
 				8676833725DD6750005DEF28 /* CardView.swift in Sources */,
 				8676830425DD6666005DEF28 /* ContentView.swift in Sources */,
 				867F058D25F04BA600B79A18 /* Webservice.swift in Sources */,
+				86FBC80E25F58435009B1187 /* ShoePurchase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
