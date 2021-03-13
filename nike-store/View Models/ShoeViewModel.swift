@@ -48,6 +48,10 @@ struct ShoeViewModel {
         return self.shoe.heading
     }
     
+    var description: String {
+        return self.shoe.description
+    }
+    
     var price: String {
         return self.shoe.price
     }
