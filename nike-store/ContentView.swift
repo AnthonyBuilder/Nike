@@ -17,7 +17,6 @@ struct ContentView: View {
                 HStack {
                     ForEach(self.shoesListVM.shoes, id: \.id) { shoe in
                         CardView(shoe: shoe)
-                            .frame(width: 350, height: 400)
                     }
                 }
             }.navigationTitle("Nike Store")
