@@ -8,27 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-
-    @ObservedObject private var shoesListVM = ShoeListViewModel()
-    
     var body: some View {
-        NavigationView {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    ForEach(self.shoesListVM.shoes, id: \.id) { shoe in
-                        CardView(shoe: shoe)
-                    }
-                }
-            }.navigationTitle("Nike Store")
-        }
+        Home()
     }
-}
-
-extension AnyTransition {
-  static var customTransition: AnyTransition {
-    let transition = AnyTransition.move(edge: .top)
-      .combined(with: .scale(scale: 0.2, anchor: .topTrailing))
-      .combined(with: .opacity)
-    return transition
-  }
 }

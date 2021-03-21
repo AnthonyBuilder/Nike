@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8615C2D425F8677200C2F9F1 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8615C2D325F8677200C2F9F1 /* ButtonCustom.swift */; };
+		8615C2D425F8677200C2F9F1 /* mButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8615C2D325F8677200C2F9F1 /* mButton.swift */; };
+		86287D7726040F73001BDB96 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86287D7626040F73001BDB96 /* Home.swift */; };
 		8676830025DD6666005DEF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867682FF25DD6666005DEF28 /* AppDelegate.swift */; };
 		8676830225DD6666005DEF28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676830125DD6666005DEF28 /* SceneDelegate.swift */; };
 		8676830425DD6666005DEF28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676830325DD6666005DEF28 /* ContentView.swift */; };
@@ -17,10 +18,11 @@
 		8676832225DD6667005DEF28 /* nike_storeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676832125DD6667005DEF28 /* nike_storeUITests.swift */; };
 		8676833725DD6750005DEF28 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676833625DD6750005DEF28 /* CardView.swift */; };
 		8676834925DD685C005DEF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8676834825DD685C005DEF28 /* Assets.xcassets */; };
-		8678D02F25F82F1C0055D2AB /* ShoePurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678D02E25F82F1C0055D2AB /* ShoePurchase.swift */; };
+		8678D02F25F82F1C0055D2AB /* ShoeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678D02E25F82F1C0055D2AB /* ShoeDetailsView.swift */; };
 		867F058425F04AA700B79A18 /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F058325F04AA700B79A18 /* Shoe.swift */; };
 		867F058D25F04BA600B79A18 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F058C25F04BA600B79A18 /* Webservice.swift */; };
 		867F059625F04E5000B79A18 /* ShoeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F059525F04E5000B79A18 /* ShoeViewModel.swift */; };
+		86CC70C426017DCB00F61388 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC70C326017DCB00F61388 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8615C2D325F8677200C2F9F1 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		8615C2D325F8677200C2F9F1 /* mButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mButton.swift; sourceTree = "<group>"; };
+		86287D7626040F73001BDB96 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		867682FC25DD6666005DEF28 /* nike-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nike-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867682FF25DD6666005DEF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8676830125DD6666005DEF28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,10 +60,11 @@
 		8676832325DD6667005DEF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8676833625DD6750005DEF28 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8676834825DD685C005DEF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Nike-Store-Swift/Nike Store/Assets.xcassets"; sourceTree = "<group>"; };
-		8678D02E25F82F1C0055D2AB /* ShoePurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePurchase.swift; sourceTree = "<group>"; };
+		8678D02E25F82F1C0055D2AB /* ShoeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDetailsView.swift; sourceTree = "<group>"; };
 		867F058325F04AA700B79A18 /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
 		867F058C25F04BA600B79A18 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		867F059525F04E5000B79A18 /* ShoeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeViewModel.swift; sourceTree = "<group>"; };
+		86CC70C326017DCB00F61388 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +115,12 @@
 		867682FE25DD6666005DEF28 /* nike-store */ = {
 			isa = PBXGroup;
 			children = (
+				86CC70BF26017BF300F61388 /* Views */,
 				867F059425F04E3900B79A18 /* View Models */,
 				867F058B25F04B9300B79A18 /* Service */,
 				867F058225F04A5400B79A18 /* Models */,
 				8676833525DD6750005DEF28 /* Components */,
 				867682FF25DD6666005DEF28 /* AppDelegate.swift */,
-				8678D02E25F82F1C0055D2AB /* ShoePurchase.swift */,
 				8676830125DD6666005DEF28 /* SceneDelegate.swift */,
 				8676830325DD6666005DEF28 /* ContentView.swift */,
 				8676830A25DD6667005DEF28 /* LaunchScreen.storyboard */,
@@ -157,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				8676833625DD6750005DEF28 /* CardView.swift */,
-				8615C2D325F8677200C2F9F1 /* ButtonCustom.swift */,
+				8615C2D325F8677200C2F9F1 /* mButton.swift */,
 			);
 			name = Components;
 			path = "../../Nike-Store-Swift/Nike Store/Components";
@@ -185,6 +189,16 @@
 				867F059525F04E5000B79A18 /* ShoeViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		86CC70BF26017BF300F61388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8678D02E25F82F1C0055D2AB /* ShoeDetailsView.swift */,
+				86CC70C326017DCB00F61388 /* LoginView.swift */,
+				86287D7626040F73001BDB96 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,14 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8676830025DD6666005DEF28 /* AppDelegate.swift in Sources */,
+				86CC70C426017DCB00F61388 /* LoginView.swift in Sources */,
 				867F059625F04E5000B79A18 /* ShoeViewModel.swift in Sources */,
+				86287D7726040F73001BDB96 /* Home.swift in Sources */,
 				8676830225DD6666005DEF28 /* SceneDelegate.swift in Sources */,
-				8615C2D425F8677200C2F9F1 /* ButtonCustom.swift in Sources */,
+				8615C2D425F8677200C2F9F1 /* mButton.swift in Sources */,
 				867F058425F04AA700B79A18 /* Shoe.swift in Sources */,
 				8676833725DD6750005DEF28 /* CardView.swift in Sources */,
 				8676830425DD6666005DEF28 /* ContentView.swift in Sources */,
 				867F058D25F04BA600B79A18 /* Webservice.swift in Sources */,
-				8678D02F25F82F1C0055D2AB /* ShoePurchase.swift in Sources */,
+				8678D02F25F82F1C0055D2AB /* ShoeDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
